@@ -1,4 +1,4 @@
-apt-get install --no-install-recommends unzip build-essential autoconf
+apt-get install --no-install-recommends unzip zip build-essential autoconf
 
 git_src --branch openjdk-21 https://salsa.debian.org/openjdk-team/openjdk.git
 git_src --branch sapmachine21 https://github.com/SAP/SapMachine.git
