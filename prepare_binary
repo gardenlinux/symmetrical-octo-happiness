@@ -1,0 +1,3 @@
+cd "$dir/src"
+bash configure
+cd -
