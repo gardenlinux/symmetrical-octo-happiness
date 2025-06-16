@@ -1,5 +1,5 @@
+version_suffix=gl1
+
 git_src --branch openjdk-21 https://github.com/gardenlinux/super-duper-funicular
 git_src --branch sapmachine21 https://github.com/SAP/SapMachine.git
 rm -rf "$dir/src/debian/patches"
-
-version_suffix=gl3
