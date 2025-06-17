@@ -1,4 +1,4 @@
-DEB_BUILD_OPTIONS="$DEB_BUILD_OPTIONS nobootcycle noaltzero" 
+DEB_BUILD_OPTIONS="terse nocheck noudeb nobootcycle noaltzero" 
 
 cat << 'EOF' > /etc/dpkg/origins/default
 Vendor: GardenLinux
