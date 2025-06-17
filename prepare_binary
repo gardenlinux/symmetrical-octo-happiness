@@ -1,1 +1,1 @@
-DEB_BUILD_OPTIONS="$DEB_BUILD_OPTIONS nobootcycle nocheck nodoc noaltzero" 
+DEB_BUILD_OPTIONS="$DEB_BUILD_OPTIONS nobootcycle nodoc noaltzero" 
