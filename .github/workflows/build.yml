@@ -7,3 +7,5 @@ jobs:
     with:
       release: false
       force-arm-build: true
+      runs-on-amd64: ubuntu-latest-64core
+      runs-on-arm64: ubuntu-latest-arm-64core
