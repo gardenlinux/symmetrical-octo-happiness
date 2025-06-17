@@ -7,4 +7,4 @@ Bugs: https://github.com/gardenlinux/gardenlinux/issues/new
 Parent: Debian
 EOF
 
-ln -s /etc/dpkg/origins/gardenlinux /etc/dpkg/origins/default
+ln -s /etc/dpkg/origins/default /etc/dpkg/origins/gardenlinux
