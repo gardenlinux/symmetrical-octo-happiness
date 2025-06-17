@@ -1,10 +1,1 @@
 DEB_BUILD_OPTIONS="terse nocheck noudeb nobootcycle noaltzero" 
-
-cat << 'EOF' > /etc/dpkg/origins/default
-Vendor: GardenLinux
-Vendor-URL: https://gardenlinux.io/
-Bugs: https://github.com/gardenlinux/gardenlinux/issues/new
-Parent: Debian
-EOF
-
-ln -s /etc/dpkg/origins/default /etc/dpkg/origins/gardenlinux
