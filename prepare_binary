@@ -1,6 +1,6 @@
 DEB_BUILD_OPTIONS="$DEB_BUILD_OPTIONS nobootcycle noaltzero" 
 
-cat << 'EOF' > /etc/dpkg/origins/gardenlinux
+cat << 'EOF' > /etc/dpkg/origins/default
 Vendor: GardenLinux
 Vendor-URL: https://gardenlinux.io/
 Bugs: https://github.com/gardenlinux/gardenlinux/issues/new
